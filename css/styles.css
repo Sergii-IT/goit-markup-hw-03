@@ -22,16 +22,10 @@ a{text-decoration: none;}
     margin: 0 auto;
     justify-content: space-evenly;
     flex-wrap: wrap;}
-    img {
+img {
     display: block;
     }
-    .visually-hidden {
-        position: absolute;
-        clip: rect(0 0 0 0);
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-      }
+
   
     /*---------------header--------------------*/
  
@@ -156,6 +150,14 @@ border-radius: 4px;
 }
 
 /*---------------features--------------------*/
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -164,7 +166,7 @@ border-radius: 4px;
     .features-list{
         display: flex;
         align-items: center; 
-        width: calc ((100%-3*24px)/4);
+        width: calc((100%-3*24px)/4);
         gap: 24px;
     }
 .features-title {
@@ -204,7 +206,7 @@ padding-bottom: 120px;
     display: flex;
     align-items: center; 
     gap: 24px;
-    width: calc ((1440-3*24px)/4);
+    width: calc((1440-3*24px)/4);
 }
 .name {
     padding: 32px 0px;
@@ -273,6 +275,7 @@ margin-bottom: 72px;
 .portfolio-name {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 
 .portfolio-subtitle {
