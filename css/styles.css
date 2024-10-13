@@ -168,11 +168,14 @@ border-radius: 4px;
     padding-bottom: 120px;
 
     }
-    .features-item{
+    .features-list {
         display: flex;
         align-items: center; 
-        width: calc((100% - 3*24px)/4);
         gap: 24px;
+    }
+    .features-item{
+       
+        width: calc((100% - 3*24px)/4);
         padding-left: 0;
         margin: 0;
     }
