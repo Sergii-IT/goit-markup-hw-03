@@ -168,13 +168,13 @@ border-radius: 4px;
     padding-bottom: 120px;
 
     }
-    .features-list{
+    .features-item{
         display: flex;
         align-items: center; 
         width: calc((100% - 3*24px)/4);
         gap: 24px;
         padding-left: 0;
-        margin-left: 0;
+        margin: 0;
     }
 .features-title {
     font-weight: 500;
@@ -274,10 +274,6 @@ margin-bottom: 72px;
     width: calc((1128 - 2*24px)/3);
     gap: 48px 24px;
     flex-wrap: wrap;
-}
-
-.portfolio-item {
-   
 }
 .portfolio-name {
     padding: 32px 16px;
